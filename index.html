@@ -7,15 +7,19 @@
 		<link rel="stylesheet" href="style.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+<!-- 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"> -->
+		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" crossorigin="anonymous">
 	</head>
+
 
 	<body>
 		<section class="header">
 			<nav>
 				<a href="index.html"><img src="images/MyLogo1.png"></a> 
 				<!--style="width: 10vw; min-width: 50px; height:100%;"!-->
-				<div class="nav-links">
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
 					<ul>
 						<li><a href="">HOME</a></li>
 						<li><a href="">CV</a></li>
@@ -23,6 +27,7 @@
 						<li><a href="">ABOUT</a></li>
 					</ul>
 				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
 			</nav>
 		<div class="text-box">
 			<h1>Belal HMEDAN WebPage</h1>
@@ -31,7 +36,16 @@
 		</div>
 
 		</section>
+<!-- JavaScript for toggeling Menu -->
+<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script>
 
 	</body>
-
 </html>
