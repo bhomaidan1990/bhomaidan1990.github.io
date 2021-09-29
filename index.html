@@ -8,7 +8,6 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-<!-- 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"> -->
 		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" crossorigin="anonymous">
 	</head>
 
@@ -17,14 +16,13 @@
 		<section class="header">
 			<nav>
 				<a href="index.html"><img src="images/MyLogo1.png"></a> 
-				<!--style="width: 10vw; min-width: 50px; height:100%;"!-->
 				<div class="nav-links" id="navLinks">
 					<i class="fa fa-times" onclick="hideMenu()"></i>
 					<ul>
 						<li><a href="">HOME</a></li>
+						<li><a href="">Publications</a></li>
 						<li><a href="">CV</a></li>
-						<li><a href="">CONTACT</a></li>
-						<li><a href="">ABOUT</a></li>
+						<li><a href="">Contact</a></li>
 					</ul>
 				</div>
 				<i class="fa fa-bars" onclick="showMenu()"></i>
@@ -36,16 +34,40 @@
 		</div>
 
 		</section>
-<!-- JavaScript for toggeling Menu -->
-<script>
-	var navLinks = document.getElementById("navLinks");
-	function showMenu(){
-		navLinks.style.right = "0";
-	}
-	function hideMenu(){
-		navLinks.style.right = "-200px";
-	}
-</script>
+
+		<!-- JavaScript for toggeling Menu -->
+		<script>
+			var navLinks = document.getElementById("navLinks");
+
+			function showMenu(){
+				navLinks.style.right = "0";
+			}
+
+			function hideMenu(){
+				navLinks.style.right = "-200px";
+			}
+		</script>
+		<!----------------------------------->
+		<!-- Course -->
+		<section class="course">
+			<h1> Research Fields</h1>
+			<p>Research domains that I'm Interested in.</p>
+
+			<div class="row">
+				<div class="course-col">
+					<h3>Computer Vision</h3>
+					<p>My interests are camera calibration, object tracking, and automatic object detection. In addition to classical image processing techniques using OpenCV and Scikit-Image.</p>
+				</div>
+				<div class="course-col">
+					<h3>Machine Learning</h3>
+					<p>My interests here are Image manipulation (classifcation, segmentation, etc...), Natural Language Processing (NLP), and Deep Learning using Tensorflow, Keras, and PyTorch. In addition to machine learning algorithms using Scikit-learn and Pandas.</p>
+				</div>
+				<div class="course-col">
+					<h3>Robotics and Artificial Intelligence</h3>
+					<p>I'm trained on ABB IRB 14000 YuMi, using low-level RAPID language to move the robot, and giving it the power to think using AI techniques, in particular I'm interested in Automated Planning(AP).</p>
+				</div>
+			</div>
+		</section>
 
 	</body>
 </html>
