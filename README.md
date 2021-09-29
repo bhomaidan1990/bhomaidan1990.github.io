@@ -1,5 +1,5 @@
 # Belal HMEDAN Personal WebPage
-> [WebPage Link](https://www.bhomaidan1990.github.io)
+> [WebPage Link](https://bhomaidan1990.github.io)
 
 ---
 
