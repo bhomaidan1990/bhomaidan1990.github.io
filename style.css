@@ -87,7 +87,7 @@ nav .fa{
 	display: none;
 }
 /*Mobile Resize*/
-@media(max-width: 700px){
+@media(max-width: 800px){
 	.text-box h1{
 /*	margin: 1px 0 1px;*/
 	font-size: 26px;
@@ -172,6 +172,6 @@ h3{text-align: center;
 .course-col:hover{
    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
-@media(max-width: 700px){
+@media(max-width: 800px){
 	.row{flex-direction: column;}
 }
