@@ -58,6 +58,12 @@ nav img{
 	text-align: center;
 	/*font-size: 70px;*/
 }
+.logo{
+  float:left;
+  width:10%;
+  /*text-align: center;*/
+  margin-top: 0px;
+  }
 .text-box h1{
 	font-size: 60px;
 	color: #BDf;
