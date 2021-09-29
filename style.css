@@ -59,7 +59,8 @@ nav img{
 	/*font-size: 70px;*/
 }
 .logo{
-  float:left;
+  float: none;
+  height: auto;
   width:10%;
   /*text-align: center;*/
   margin-top: 0px;
