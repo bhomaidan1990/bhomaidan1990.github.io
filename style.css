@@ -6,7 +6,7 @@
 .header{
 	min-height: 100vh;
 	width: 100%;
-	background-image: url(images/LaTronche.jpg); /*linear-gradient(rgba(4,9,30,0.6), rgba(4,9,30,0.1)),*/
+	background-image: linear-gradient(rgba(4,9,30,0.6), rgba(4,9,30,0.1)), url(images/LaTronche.jpg); /**/
 	background-position: center;
 	background-size: cover; /*auto*/
 	background-repeat: no-repeat;
